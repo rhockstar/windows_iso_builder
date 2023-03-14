@@ -27,7 +27,7 @@ read script comments for more information. some of the "1-9*.ps1" scripts only n
 read and modify to suit your needs.
 
 ## 1_create_c_dirs.ps1
-creates the locations in `0_config`. if you run with the defaults in config it this is a good time to download an iso to `C:\TMP\Windows.iso`.
+creates the locations in `0_config`. if you run with the defaults in config it this is a good time to download an iso to `C:\TEMP\Windows.iso`.
 
 ## 2_convert_esd_to_wim.ps1
 mount the official iso and convert the install.esd to an install.wim. mount the install.wim to the mount point in config.
